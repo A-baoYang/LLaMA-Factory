@@ -423,11 +423,49 @@
       "prompt": "text"
     }
   },
-  "wikipedia_zh": {
+  "wikipedia_zhcn": {
     "hf_hub_url": "pleisto/wikipedia-cn-20230720-filtered",
     "ms_hub_url": "AI-ModelScope/wikipedia-cn-20230720-filtered",
     "columns": {
       "prompt": "completion"
+    }
+  },
+  "wikipedia_zhtw": {
+    "hf_hub_url": "erhwenkuo/wikipedia-zhtw",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "c4_zhtw": {
+    "hf_hub_url": "erhwenkuo/c4-chinese-zhtw",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "articles_zhtw": {
+    "hf_hub_url": "AWeirdDev/zh-tw-articles-6k",
+    "columns": {
+      "prompt": "content"
+    }
+  },
+  "wikinews_zhtw": {
+    "hf_hub_url": "erhwenkuo/wikinews-zhtw",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "poetry_zhtw": {
+    "hf_hub_url": "erhwenkuo/poetry-chinese-zhtw",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "sft_alpaca_gpt4_zhtw": {
+    "hf_hub_url": "erhwenkuo/alpaca-data-gpt4-chinese-zhtw",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
     }
   },
   "pile": {
@@ -458,5 +496,35 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "dcardwom_zhtw_train": {
+    "file_name": "dcardwom/dcardwom_zhtw_train.json"
+  },
+  "dcardwom_zhtw_val": {
+    "file_name": "dcardwom/dcardwom_zhtw_val.json"
+  },
+  "dcardwom_zhcn_train": {
+    "file_name": "dcardwom/dcardwom_zhcn_train.json"
+  },
+  "dcardwom_zhcn_val": {
+    "file_name": "dcardwom/dcardwom_zhcn_val.json"
+  },
+  "review3cqa_zhtw_train": {
+    "file_name": "review3c_qa/review3c_zhtw_train.json"
+  },
+  "review3cqa_zhtw_test": {
+    "file_name": "review3c_qa/review3c_zhtw_test.json"
+  },
+  "review3cqa_zhcn_train": {
+    "file_name": "review3c_qa/review3c_zhcn_train.json"
+  },
+  "review3cqa_zhcn_test": {
+    "file_name": "review3c_qa/review3c_zhcn_test.json"
+  },
+  "wiki_zhtw": {
+    "file_name": "wiki_zhtw.json",
+    "columns": {
+      "prompt": "text"
+    }
   }
 }
