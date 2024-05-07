@@ -163,3 +163,8 @@ cython_debug/
 user.config
 saves/
 cache/
+hf_cache/
+note.md
+output/
+data/
+*.json

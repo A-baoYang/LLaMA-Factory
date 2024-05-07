@@ -1,3 +1,4 @@
+import os
 from dataclasses import asdict, dataclass, field
 from typing import Any, Dict, Literal, Optional
 
@@ -126,7 +127,7 @@ class ModelArguments:
         metadata={"help": "Whether or not to use KV cache in generation."},
     )
     hf_hub_token: Optional[str] = field(
-        default=None,
+        default=os.environ.get("HF_HUB_TOKEN", None)
         metadata={"help": "Auth token to log in with Hugging Face Hub."},
     )
     ms_hub_token: Optional[str] = field(
