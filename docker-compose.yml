@@ -12,7 +12,7 @@ services:
       - ./output:/app/output
       - ./saves:/app/saves
     environment:
-      - CUDA_VISIBLE_DEVICES=0
+      - CUDA_VISIBLE_DEVICES=0,1
       - HF_HUB_TOKEN=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
     ports:
       - "7860:7860"
