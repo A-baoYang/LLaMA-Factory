@@ -554,6 +554,18 @@
     },
     "folder": "python"
   },
+  "hi5ragrec_zhtw_train": {
+    "file_name": "sft-hi5-ragrec/hi5ragrec_zhtw_train.json"
+  },
+  "hi5ragrec_zhtw_val": {
+    "file_name": "sft-hi5-ragrec/hi5ragrec_zhtw_val.json"
+  },
+  "hi5ragrec_zhcn_train": {
+    "file_name": "sft-hi5-ragrec/hi5ragrec_zhcn_train.json"
+  },
+  "hi5ragrec_zhcn_val": {
+    "file_name": "sft-hi5-ragrec/hi5ragrec_zhcn_val.json"
+  },
   "dcardwom_zhtw_train": {
     "file_name": "dcardwom/dcardwom_zhtw_train.json"
   },
