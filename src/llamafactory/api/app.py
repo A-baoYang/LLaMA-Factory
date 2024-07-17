@@ -105,4 +105,5 @@ def run_api() -> None:
     api_host = os.environ.get("API_HOST", "0.0.0.0")
     api_port = int(os.environ.get("API_PORT", "8000"))
     print("Visit http://localhost:{}/docs for API document.".format(api_port))
-    uvicorn.run(app, host=api_host, port=api_port)
+    print("API Workers: 5")
+    uvicorn.run(app, host=api_host, port=api_port, workers=5)

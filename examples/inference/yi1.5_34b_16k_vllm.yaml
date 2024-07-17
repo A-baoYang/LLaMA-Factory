@@ -1,0 +1,6 @@
+model_name_or_path: 01-ai/Yi-1.5-34B-Chat-16K
+template: yi
+infer_backend: vllm
+vllm_enforce_eager: true
+# vllm_gpu_util: 0.8
+vllm_maxlen: 16384

@@ -566,6 +566,9 @@
   "hi5ragrec_zhcn_val": {
     "file_name": "sft-hi5-ragrec/hi5ragrec_zhcn_val.json"
   },
+  "domain_benchmark_en_netcom": {
+    "file_name": "pt-benchmark-netcom/en.json"
+  },
   "dcardwom_zhtw_train": {
     "file_name": "dcardwom/dcardwom_zhtw_train.json"
   },
@@ -589,6 +592,27 @@
   },
   "review3cqa_zhcn_test": {
     "file_name": "review3c_qa/review3c_zhcn_test.json"
+  },
+  "esgqa_zhtw_train": {
+    "file_name": "sft-esgqa/esgqa_zhtw_train.json"
+  },
+  "esgqa_zhtw_val": {
+    "file_name": "sft-esgqa/esgqa_zhtw_val.json"
+  },
+  "esgqa_zhcn_train": {
+    "file_name": "sft-esgqa/esgqa_zhcn_train.json"
+  },
+  "esgqa_zhcn_val": {
+    "file_name": "sft-esgqa/esgqa_zhcn_val.json"
+  },
+  "domain_zhtw_netcom": {
+    "file_name": "pt-netcom/ptdataset_netcom.json",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "domain_benchmark_zhtw_esg": {
+    "file_name": "pt-benchmark-esg/zhtw.json"
   },
   "wiki_zhtw": {
     "file_name": "wiki_zhtw.json",

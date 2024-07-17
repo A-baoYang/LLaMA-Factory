@@ -1,0 +1,4 @@
+model_name_or_path: 01-ai/Yi-1.5-9B-Chat
+adapter_name_or_path: saves/Yi-1.5-9B-Chat/lora/sftrain_hi5ragrec_zhtw_2024-06-03-18-21-32
+template: yi
+finetuning_type: lora
