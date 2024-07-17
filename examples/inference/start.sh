@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 llamafactory-cli api examples/inference/commandr01.yaml
