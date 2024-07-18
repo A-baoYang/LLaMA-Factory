@@ -29,3 +29,4 @@ services:
             count: "all"
             capabilities: [gpu]
     restart: unless-stopped
+    # command: ["llamafactory-cli", "api", "examples/inference/commandr01.yaml"]
